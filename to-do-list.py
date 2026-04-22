@@ -9,7 +9,7 @@ def show_menu():
 
 tasks = []
 try:
-    with open("New Folder/tasks.txt", "r") as f:
+    with open("tasks.txt", "r") as f:
         tasks = [line.strip() for line in f]
 except FileNotFoundError:
     tasks = []
