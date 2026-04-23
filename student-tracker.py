@@ -17,7 +17,7 @@ while True:
     print("3. Stats")
     print("4. Save to File")
     print("5. Exit")
-    choice = input("What would you like to do? ")
+    choice = input("How can I assist you? ")
 
     if choice == "1":
         name = input("Enter full name: ")
