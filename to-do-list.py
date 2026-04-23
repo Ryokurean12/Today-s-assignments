@@ -1,9 +1,9 @@
 def show_menu():
     print("\n---TO-DO-LIST---")
     print("1. View Tasks")
-    print("2. Add Task")
-    print("3. Check completed Task")
-    print("4. Task finished clear")
+    print("2. Task Addition")
+    print("3. Task Completed")
+    print("4. Clear Tasks")
     print("5. Exit")
 
 
