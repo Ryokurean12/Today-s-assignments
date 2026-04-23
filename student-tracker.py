@@ -25,6 +25,7 @@ while True:
             score = int(input("Enter score: "))
             students[name] = score
             print(f"Added {name}!")
+            
         except ValueError:
             print("Invalid score. Please enter a number.")
 
@@ -34,6 +35,7 @@ while True:
         else:
             print("--- Current Streak ---")
             for name in students:
+                
                 print(f"{name}: {students[name]}")
 
     elif choice == "3":
@@ -48,7 +50,9 @@ while True:
 
     elif choice == "4":
         with open("scores.txt", "w") as f:
+            
             for name, score in students.items():
+                
                 f.write(f"{name},{score}\n")
         print("Saved to scores.txt")
 
