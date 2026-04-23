@@ -13,8 +13,8 @@ except FileNotFoundError:
 while True:
     print("--- Student Tracker ---")
     print("1. Add/Update Student")
-    print("2. Show All Scores")
-    print("3. Show Statistics")
+    print("2. All Scores")
+    print("3. Stats")
     print("4. Save to File")
     print("5. Exit")
     choice = input("What would you like to do? ")
